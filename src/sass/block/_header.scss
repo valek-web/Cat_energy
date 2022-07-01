@@ -1,0 +1,30 @@
+.header {
+  padding: 53px 0 0 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+    list-style-type: none;
+    &__element {
+      a {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 8px 0;
+        &:hover {
+          border-bottom: 2px solid #fff;
+        }
+      }
+      &:not(:first-child) {
+        margin-left: 37px;
+      }
+    }
+  }
+}
