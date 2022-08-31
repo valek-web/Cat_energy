@@ -1,18 +1,17 @@
 * {
-  margin: 0%;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'DM Sans', sans-serif;
-}
-
-body {
-  background-color: #00000037;
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
+    max-width: 1220px;
+    margin: 0 auto;
 }
 
 @import 'base/var';
 @import 'block/header';
+@import 'base/media';
