@@ -1,0 +1,41 @@
+.itworks {
+    padding-bottom: 126px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 72px;
+    }
+}
+
+.work {
+    max-width: 230px;
+    position: relative;
+    &__content {
+        position: relative;
+        z-index: 1;
+    }
+    &__img {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $main-color;
+    }
+    &__descr {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #444444;
+        margin-top: 31px;
+    }
+    &__bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

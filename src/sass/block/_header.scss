@@ -52,12 +52,6 @@
         &__text {
             max-width: 414px;
         }
-        &__title {
-            font-weight: 400;
-            font-size: 60px;
-            line-height: 60px;
-            color: #000000;
-        }
         &__descr {
             font-style: normal;
             font-weight: 400;
@@ -85,4 +79,11 @@
             }
         }
     }
+}
+
+.title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
 }
