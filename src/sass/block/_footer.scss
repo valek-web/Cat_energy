@@ -1,0 +1,17 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 56px 0 56px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__network {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    .network:not(:first-child) {
+        margin-left: 28px;
+    }
+}

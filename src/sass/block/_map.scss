@@ -1,0 +1,32 @@
+.map {
+    position: relative;
+    &__info {
+        padding: 66px 89px 52px 76px;
+        background: #f2f2f2;
+        display: flex;
+        justify-content: space-between;
+        width: 570px;
+        height: 201px;
+        position: absolute;
+        top: 95px;
+        left: 110px;
+    }
+    &__title {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #111111;
+        max-width: 163px;
+    }
+    &__adress {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #444444;
+    }
+}

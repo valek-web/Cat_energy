@@ -60,6 +60,13 @@
             grid-template-columns: repeat(2, 1fr);
         }
     }
+    .map {
+        &__info {
+            width: 100%;
+            height: auto;
+            position: static;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -181,6 +188,11 @@
 
     .work {
         min-height: 280px;
+    }
+    .map {
+        &__info {
+            padding: 30px;
+        }
     }
 }
 
@@ -312,6 +324,22 @@
         font-weight: 400;
         font-size: 36px;
         line-height: 40px;
+    }
+    .map {
+        &__info {
+            padding: 20px;
+        }
+        &__title {
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &__adress {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        br {
+            display: none;
+        }
     }
 }
 

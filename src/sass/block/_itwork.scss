@@ -39,3 +39,30 @@
         right: 0;
     }
 }
+
+.slider {
+    -webkit-appearance: none;
+    width: 428px;
+    height: 6px;
+    background: #d3d3d3;
+    border-radius: 6px;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 34px;
+    height: 34px;
+    box-shadow: 0 0 10px #444444;
+    border-radius: 100%;
+    background: $main-color;
+    cursor: pointer;
+    position: relative;
+}
